@@ -1,0 +1,59 @@
+set nocompatible
+
+filetype off
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+" Let Vundle manage Vundle
+Bundle 'gmarik/vundle'
+
+" Define bundles via Github repos
+Bundle 'scrooloose/nerdtree'
+Bundle 'vim-scripts/tComment'
+Bundle 'kien/ctrlp.vim'
+Bundle 'garbas/vim-snipmate'
+Bundle 'MarcWeber/vim-addon-mw-utils'
+Bundle 'tomtom/tlib_vim'
+Bundle 'honza/vim-snippets'
+Bundle 'tmhedberg/matchit'
+Bundle 'scrooloose/syntastic'
+Bundle 'tpope/vim-haml'
+Bundle 'tpope/vim-endwise'
+Bundle 'altercation/vim-colors-solarized'
+Bundle 'tpope/vim-surround'
+Bundle 'vim-airline/vim-airline'
+Bundle 'vim-airline/vim-airline-themes'
+Bundle 'easymotion/vim-easymotion'
+Bundle 'tpope/vim-fugitive'
+Bundle 'sjl/vitality.vim'
+Bundle 'myusuf3/numbers.vim'
+Bundle 'tpope/vim-sensible'
+Bundle 'airblade/vim-gitgutter'
+Bundle 'tpope/vim-rails'
+Bundle 'christoomey/vim-tmux-navigator'
+Bundle 'kchmck/vim-coffee-script'
+Bundle 'pangloss/vim-javascript'
+Bundle 'terryma/vim-multiple-cursors'
+Bundle 'rking/ag.vim'
+Bundle 'ZoomWin'
+Bundle 'mattn/emmet-vim'
+Plugin 'ap/vim-css-color'
+Plugin 'Chiel92/vim-autoformat'
+
+"Bundle 'jsx/jsx.vim'
+"Bundle 'jelera/vim-javascript-syntax'
+"Bundle 'vim-ruby/vim-ruby'
+"Bundle 'dkprice/vim-easygrep'
+"Bundle 'skwp/greplace.vim'
+"Bundle 'nelstrom/vim-textobj-rubyblock'
+"Bundle 'geekjuice/vim-spec'
+"Bundle 'tpope/vim-bundler'
+"Bundle 'tpope/vim-projectionist'
+"Bundle 'elixir-lang/vim-elixir'
+"Bundle 'blarghmatey/split-expander'
+"Bundle 'terryma/vim-expand-region'
+"Bundle 'kana/vim-textobj-user'
+"Bundle 'jgdavey/tslime.vim'
+"Bundle 'henrik/vim-qargs'
+
+filetype on
